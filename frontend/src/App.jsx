@@ -9,7 +9,7 @@ import {
   addDoc,
   doc,
   getDoc
-} from "./firebase-cdn"; // Firebase file from above
+} from "./firebase"; // Firebase file from above
 import { FixedSizeList } from "react-window";
 
 function App() {

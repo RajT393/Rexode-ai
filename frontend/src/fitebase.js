@@ -19,4 +19,12 @@ const db = getFirestore(app);
 const auth = getAuth(app);
 signInAnonymously(auth);
 
-export { db, auth, collection, addDoc, doc, getDoc };
+
+export {
+  db,
+  auth,
+  collection,
+  addDoc,
+  doc,
+  getDoc
+};
